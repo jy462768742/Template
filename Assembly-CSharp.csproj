@@ -90,6 +90,9 @@
      <Compile Include="Assets\Scripts\Event\Event.cs" />
      <Compile Include="Assets\Scripts\Framework\BindableProperty.cs" />
      <Compile Include="Assets\Scripts\Framework\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Utility\PortManager.cs" />
+     <Compile Include="Assets\Scripts\Utility\StreamingAssetsUtility.cs" />
+     <Compile Include="Assets\Scripts\Utility\UdpClientScript.cs" />
      <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Stereo.shader" />
      <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreen.shader" />
      <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-IMGUI-Transparent.shader" />
@@ -739,13 +742,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="DOTween.Modules.csproj">
-      <Project>{C9E68F86-DFA0-0ACE-4797-2512D7B7D521}</Project>
-      <Name>DOTween.Modules</Name>
-    </ProjectReference>
     <ProjectReference Include="DOTweenPro.Scripts.csproj">
       <Project>{B97FE1B2-D63D-9E6C-FF95-B94E66282C00}</Project>
       <Name>DOTweenPro.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="DOTween.Modules.csproj">
+      <Project>{C9E68F86-DFA0-0ACE-4797-2512D7B7D521}</Project>
+      <Name>DOTween.Modules</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

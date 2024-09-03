@@ -256,23 +256,23 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenProEditor">
- <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
- </Reference>
  <Reference Include="DemiLib">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DemiEditor">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
  </Reference>
  <Reference Include="Psd2UnityPro">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Psd2UnityPro/Editor/Psd2UnityPro.dll</HintPath>

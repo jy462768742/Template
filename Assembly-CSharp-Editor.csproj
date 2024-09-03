@@ -257,23 +257,23 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenProEditor">
- <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
- </Reference>
  <Reference Include="DemiLib">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DemiEditor">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
  <Reference Include="DOTweenPro">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>D:/UnityProject2019/MyTemplate/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
  </Reference>
  <Reference Include="Psd2UnityPro">
  <HintPath>D:/UnityProject2019/MyTemplate/Assets/Psd2UnityPro/Editor/Psd2UnityPro.dll</HintPath>
@@ -728,13 +728,13 @@
       <Project>{BFEF82C8-48BE-2AA2-A656-E70A59863E16}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="DOTween.Modules.csproj">
-      <Project>{C9E68F86-DFA0-0ACE-4797-2512D7B7D521}</Project>
-      <Name>DOTween.Modules</Name>
-    </ProjectReference>
     <ProjectReference Include="DOTweenPro.Scripts.csproj">
       <Project>{B97FE1B2-D63D-9E6C-FF95-B94E66282C00}</Project>
       <Name>DOTweenPro.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="DOTween.Modules.csproj">
+      <Project>{C9E68F86-DFA0-0ACE-4797-2512D7B7D521}</Project>
+      <Name>DOTween.Modules</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
